@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="-1" name="Failed suite [mySuite]">
+  <test name="myTest(failed)">
+    <classes>
+      <class name="testng.Ex1">
+        <methods>
+          <include name="login"/>
+          <include name="openBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="beforeClass"/>
+          <include name="a"/>
+          <include name="logout"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- testng.Ex1 -->
+    </classes>
+  </test> <!-- myTest(failed) -->
+</suite> <!-- Failed suite [mySuite] -->

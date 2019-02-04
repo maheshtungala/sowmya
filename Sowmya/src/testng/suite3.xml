@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="mySuite">
+<groups>
+  <run>
+    
+    <include name="a"/>  
+    
+  </run>
+</groups>
+<test name="myTest">
+
+<classes>
+  <class name="testng.Ex2"/>
+</classes> 
+</test>
+</suite>
